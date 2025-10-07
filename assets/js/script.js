@@ -25,24 +25,30 @@ seguintes faixas de IMC: abaixo de 18,5 (abaixo do peso), entre 18,5 e 24,9 (pes
 
 let peso = 70; // peso em kg
 let altura = 1.75; // altura em metros
-let imc = peso / (altura * altura); // cálculo do IMC
+let calcImc = (peso / (altura * altura)); // cálculo do IMC
+let categoria = "";
 
-switch (imc) {
-    case imc < 18.5:
-        categoria = "Abaixo do peso";
-        break;
-    case imc >= 18.5 && imc <= 24.9:
-        categoria = "Peso ideal";
-        break;
-    case imc > 24.9:
-        categoria = "Acima do peso";
-        break;
- 
-    default:
-        console.log("Valor de IMC inválido");
-        break;
+// usando switch case para determinar a categoria do IMC
+switch (true) {
+  case (calcImc < 18.5):
+    categoria = "Abaixo do peso";
+    break;
+
+  case (calcImc <= 24.9):
+    categoria = "Peso ideal";
+    break;
+
+  case (calcImc > 24.9):
+    categoria = "Acima do peso";
+    break;
+
+  default:
+    categoria = "Valor de IMC inválido";
+    break;
 }
-console.log("peso: "+peso+"kg, altura: "+altura+"m, IMC: "+ imc.toFixed(2) + " categoria de IMC: " + categoria); // saída do IMC com duas casas decimais
+
+console.log("seu imc é: " + calcImc + ", categoria: " + categoria);
+
 //4 - Faça um programa que que faça uma repetição até 50 (usando for )apresentando  a mensagem no 
 //console, o valor é: !
 
