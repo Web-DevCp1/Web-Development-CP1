@@ -44,7 +44,7 @@ switch (imc) {
 }
 console.log("peso: "+peso+"kg, altura: "+altura+"m, IMC: "+ imc.toFixed(2) + " categoria de IMC: " + categoria); // saída do IMC com duas casas decimais
 //4 - Faça um programa que que faça uma repetição até 50 (usando for )apresentando  a mensagem no 
-//console, o valor é: !
+//console, o valor é: ! 
 
 for (let i=0; i<=50; i++) {
     console.log("O valor é: " + i);
@@ -64,3 +64,21 @@ if (nome == "admin" && senha == "1234") {
     console.log("Falha na autenticação.");
 }
 
+//6 - Vamos criar um programa que calcule a média de 7 notas e exiba uma mensagem indicando se o aluno 
+//foi aprovado ou reprovado. Considere que a média mínima para aprovação é 6. Exemplifique e demonstre 
+//a saída!
+
+let n1 = 7.5;
+let n2 = 6.0;
+let n3 = 8.0;
+let n4 = 5.5;
+let n5 = 9.0;
+let n6 = 4.5;
+let n7 = 6.5;
+let media = (n1 + n2 + n3 + n4 + n5 + n6 + n7) / 7;
+
+if (media>=6) {
+    console.log("Aluno Aprovado")
+} else {
+    console.log("Aluno Reprovado")
+}
