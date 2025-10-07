@@ -50,14 +50,41 @@ switch (true) {
 console.log("seu imc é: " + calcImc + ", categoria: " + categoria);
 
 //4 - Faça um programa que que faça uma repetição até 50 (usando for )apresentando  a mensagem no 
-//console, o valor é: !
+//console, o valor é: ! 
 
 for (let i=0; i<=50; i++) {
     console.log("O valor é: " + i);
 }
 
-//Crie um programa que receba um nome de usuário e uma senha e verifique se eles correspondem aos 
+//5 - Crie um programa que receba um nome de usuário e uma senha e verifique se eles correspondem aos 
 //dados de um usuário cadastrado. Considere que o usuário cadastrado possui nome de usuário "admin" e 
 //senha "1234". O programa deve exibir uma mensagem indicando se o login foi realizado com sucesso ou 
 //se houve falha de autenticação. Exemplifique e demonstre a saída! 
 
+let nome = "admin";
+let senha = "1234";
+
+if (nome == "admin" && senha == "1234") {
+    console.log("Login realizado com sucesso!");
+} else {
+    console.log("Falha na autenticação.");
+}
+
+//6 - Vamos criar um programa que calcule a média de 7 notas e exiba uma mensagem indicando se o aluno 
+//foi aprovado ou reprovado. Considere que a média mínima para aprovação é 6. Exemplifique e demonstre 
+//a saída!
+
+let n1 = 7.5;
+let n2 = 6.0;
+let n3 = 8.0;
+let n4 = 5.5;
+let n5 = 9.0;
+let n6 = 4.5;
+let n7 = 6.5;
+let media = (n1 + n2 + n3 + n4 + n5 + n6 + n7) / 7;
+
+if (media>=6) {
+    console.log("Aluno Aprovado")
+} else {
+    console.log("Aluno Reprovado")
+}
