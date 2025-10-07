@@ -17,8 +17,17 @@ for (let i=0; i<=50; i++) {
     console.log("O valor é: " + i);
 }
 
-//Crie um programa que receba um nome de usuário e uma senha e verifique se eles correspondem aos 
+//5 - Crie um programa que receba um nome de usuário e uma senha e verifique se eles correspondem aos 
 //dados de um usuário cadastrado. Considere que o usuário cadastrado possui nome de usuário "admin" e 
 //senha "1234". O programa deve exibir uma mensagem indicando se o login foi realizado com sucesso ou 
 //se houve falha de autenticação. Exemplifique e demonstre a saída! 
+
+let nome = "admin";
+let senha = "1234";
+
+if (nome == "admin" && senha == "1234") {
+    console.log("Login realizado com sucesso!");
+} else {
+    console.log("Falha na autenticação.");
+}
 
