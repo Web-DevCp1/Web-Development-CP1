@@ -88,3 +88,9 @@ if (media>=6) {
 } else {
     console.log("Aluno Reprovado")
 }
+
+//7 - Crie um programa que declare a varíavel como String depois converta para float e em seguida apresente o tipo da varíavel.
+
+let numString1= "5.5" //string
+console.log(parseFloat(numString1)) //conversão para float
+console.log (typeof parseFloat(numString1)) //mostra a variável como número
