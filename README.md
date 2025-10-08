@@ -1,7 +1,7 @@
 # 🧠 Conceitos Fundamentais de JavaScript
 
 Este documento reúne exercícios resolvidos em contexto acadêmico avaliativo.
-
+---
 Em JavaScript, uma variável pode ser declarada de diferentes formas. Quando uma variável é **declarada, mas não inicializada**, seu valor é `undefined`. Se ela for criada com uma **string vazia**, significa que tem valor definido, mas sem conteúdo. Já uma **variável com valor atribuído** recebe algo no momento da declaração, como `"Olá, Mundo!"`.
 
 Os operadores `!=`, `==` e `>=` são usados para comparar valores e retornam sempre um resultado **booleano** (`true` ou `false`).  
