@@ -115,3 +115,24 @@ console.log(parseInt(numFloat3))
 
 let numFloat4= 89.52
 console.log(parseInt(89.52))
+
+//9 - CONVERTA de String para float usando parseFloat OS SEGUINTES NÚMEROS
+//30.345
+
+let numString2= "30.345"
+console.log(parseFloat(numString2))
+
+//154.666
+
+let numString3= "154.666"
+console.log(parseFloat(numString3))
+
+//50.888
+
+let numString4= "50.888"
+console.log(parseFloat(numString4))
+
+//089.52
+
+let numString5= "089.52"
+console.log(parseFloat(numString5))
