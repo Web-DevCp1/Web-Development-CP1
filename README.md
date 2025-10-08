@@ -32,6 +32,9 @@ Esses fundamentos — **variáveis, operadores, estruturas condicionais, laços 
 ---
 
 ### 💻 Autoria
-Felipe Silva Santos Menezes
-Vinicius Kozonoe Guaglini
-César André Zanin Filho
+
+| Nome completo                   | Função           |
+|----------------------------------|------------------|
+| **Felipe Silva Santos Menezes**  | Desenvolvedor    |
+| **Vinicius Kozonoe Guaglini**    | Desenvolvedor    |
+| **César André Zanin Filho**      | Desenvolvedor    |
