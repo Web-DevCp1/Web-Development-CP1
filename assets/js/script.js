@@ -94,3 +94,24 @@ if (media>=6) {
 let numString1= "5.5" //string
 console.log(parseFloat(numString1)) //conversão para float
 console.log (typeof parseFloat(numString1)) //mostra a variável como número
+
+//8 - CONVERTA de float para int usando parseInt OS SEGUINTES NÚMEROS:
+//30.345
+
+let numFloat1= 30.345
+console.log(parseInt(numFloat1))
+
+//154.666
+
+let numFloat2= 154.666
+console.log(parseInt(numFloat2))
+
+//50.888
+
+let numFloat3= 50.888
+console.log(parseInt(numFloat3))
+
+//89.52
+
+let numFloat4= 89.52
+console.log(parseInt(89.52))
