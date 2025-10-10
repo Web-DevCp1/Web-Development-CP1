@@ -2,10 +2,10 @@
 //demonstre a saída do valor da variável!
 
 let varialvelUndefined; // variável declarada mas não inicializada, portanto seu valor é undefined
-console.log(varialvelUndefined); // saída: undefined
+console.log("variavel indefinida: " + varialvelUndefined); // saída: undefined
 
 let variavelVazia = "";
-console.log(variavelVazia); // variavel criada, mas setada com valor null
+console.log("variavel vazia: " + variavelVazia); // variavel criada, mas setada com valor null
 
 let variavelComValor = "Bem vindos a Vinícola Darcy Guaglini!";
 console.log(variavelComValor); // saída: Bem vindos a Vinícola Darcy Guaglini!
